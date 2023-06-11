@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const blogController = require('../controllers/blogController');
+const blogController = require('/Users/nicoalcantara/challenge-14/Tech-Blog/controllers/ blogController.js');
 
 // Get all blog posts
 router.get('/posts', blogController.getAllBlogPosts);

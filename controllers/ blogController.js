@@ -1,4 +1,5 @@
-const { User, BlogPost } = require('../models');
+const { User, BlogPost } = require('../models/user');
+// const blogController = require('../controllers/blogController');
 
 const blogController = {
   // Get all blog posts

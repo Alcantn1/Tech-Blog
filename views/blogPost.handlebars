@@ -14,10 +14,10 @@
 {{/each}}
 
 {{#if loggedIn}}
-<form action="/posts/{{blogPost.id}}/comments" method="POST">
+<form action="/blogs/{{blogPost.id}}/comments" method="POST">
   <textarea name="content" placeholder="Leave a comment" required></textarea>
   <button type="submit">Submit</button>
 </form>
 {{else}}
-<p>Please <a href="/login">login</a> to leave a comment.</p>
+<p>Please <a href="/Tech-Blog/views/login.handlebars">login</a> to leave a comment.</p>
 {{/if}}

@@ -6,9 +6,9 @@
   <h3>{{this.title}}</h3>
   <p>Posted on {{formatDate this.createdAt}}</p>
   <p>{{truncateText this.content 100}}</p>
-  <a href="/posts/{{this.id}}">Read More</a>
-  <a href="/posts/{{this.id}}/edit">Edit</a>
-  <a href="/posts/{{this.id}}/delete">Delete</a>
+  <a href="/blogs/{{this.id}}">Read More</a>
+  <a href="/blogs/{{this.id}}/edit">Edit</a>
+  <a href="/blogs/{{this.id}}/delete">Delete</a>
 </article>
 {{/each}}
 {{else}}
